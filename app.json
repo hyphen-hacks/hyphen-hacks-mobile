@@ -42,7 +42,7 @@
     "ios": {
       "bundleIdentifier": "com.hyphenhacks.main",
       "buildNumber": "2",
-      "appStoreUrl": "https://apps.apple.com/us/app/hyphen-hacks-mobile/id1438939583",
+      "appStoreUrl": "https://itunes.apple.com/us/app/hyphen-hacks-mobile/id1438939583",
       "supportsTablet": false,
       "usesIcloudStorage": false,
       "usesAppleSignIn": false

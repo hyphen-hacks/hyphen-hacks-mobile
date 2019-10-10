@@ -22,6 +22,7 @@
     "expo-permissions": "latest",
     "expo-web-browser": "^7.0.0",
     "firebase": "^7.0.0",
+    "mem": "^5.1.1",
     "moment": "^2.24.0",
     "react": "16.8.3",
     "react-dom": "16.8.3",
