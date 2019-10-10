@@ -2,8 +2,7 @@ import React from 'react';
 import {
   View,
   FlatList,
-  StyleSheet,
-  Dimensions
+  StyleSheet
 } from "react-native";
 import WorkshopCard from "../components/workshops/WorkshopCard";
 import getWorkshops, { getSlotTimes } from "../firebase/Workshops";
@@ -44,7 +43,6 @@ export default class WorkshopsScreen extends React.Component {
         workshops[data.slot].slots.push(data);
         i++
       });
-      console.log(Dimensions.get("window").width);
       getSlotTimes().then((querySelector) => {
         let slots = {};
         querySelector.forEach((doc) => {
