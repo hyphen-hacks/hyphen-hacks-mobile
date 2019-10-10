@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Hyphen-Hacks Mobile",
+    "description": "Navigate Hyphen-Hacks better using this handy app!",
+    "slug": "hyphen-hacks-mobile",
+    "owner": "emily.sturman",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "version": "2.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "githubUrl": "https://github.com/LWHSComputerScience/hackathon-app",
+    "orientation": "portrait",
+    "primaryColor": "#34495E",
+    "icon": "./assets/images/icon.png",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#34495E"
+    },
+    "androidNavigationBar": {
+      "visible": true,
+      "barStyle": "dark-content",
+      "backgroundColor": "#34495E"
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#34495E"
+    },
+    "notification": {
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.hyphenhacks.main",
+      "buildNumber": "2",
+      "appStoreUrl": "https://apps.apple.com/us/app/hyphen-hacks-mobile/id1438939583",
+      "supportsTablet": false,
+      "usesIcloudStorage": false,
+      "usesAppleSignIn": false
+    },
+    "android": {
+      "package": "com.hyphenhacks.main",
+      "versionCode": 2,
+      "permissions": []
+    }
+  }
+}
