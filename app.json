@@ -2,7 +2,7 @@
   "expo": {
     "name": "Hyphen-Hacks Mobile",
     "description": "Navigate Hyphen-Hacks better using this handy app!",
-    "slug": "hyphen-hacks-mobile",
+    "slug": "hackathon-app",
     "owner": "emily.sturman",
     "privacy": "public",
     "sdkVersion": "35.0.0",
