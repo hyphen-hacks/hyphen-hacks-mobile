@@ -32,15 +32,6 @@ export default class App extends React.Component {
     console.warn(error);
   }
 
-  componentDidMount() {
-    registerForPushNotifications();
-    this.notificationSubscription = Notifications.addListener(this.handleNotification);
-  }
-
-  handleNotification = (notification) => {
-    this.setState({notification: notification});
-  };
-
   render() {
     if (this.state.loading && !this.props.skipLoadingScreen) {
       return (

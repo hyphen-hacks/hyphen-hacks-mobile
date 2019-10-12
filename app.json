@@ -6,7 +6,7 @@
     "owner": "emily.sturman",
     "privacy": "public",
     "sdkVersion": "35.0.0",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "platforms": [
       "ios",
       "android"
@@ -41,7 +41,7 @@
     ],
     "ios": {
       "bundleIdentifier": "com.hyphenhacks.mobile",
-      "buildNumber": "1",
+      "buildNumber": "2",
       "appStoreUrl": "https://itunes.apple.com/us/app/hyphen-hacks-helper/id1483173457",
       "supportsTablet": false,
       "usesIcloudStorage": false,
@@ -50,7 +50,7 @@
     "android": {
       "package": "com.hyphenhacks.main",
       "googleServicesFile": "./google-services.json",
-      "versionCode": 3,
+      "versionCode": 4,
       "permissions": []
     }
   }
